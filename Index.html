@@ -1,92 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Upgrade to TrendSniper Pro</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #fffaf0;
-      color: #333;
-      padding: 40px;
-      max-width: 600px;
+      background: #111;
+      font-family: 'Segoe UI', sans-serif;
+      color: #eee;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 700px;
       margin: auto;
     }
 
     h1 {
-      color: #f0b90b;
-      font-size: 28px;
+      font-size: 32px;
+      color: #fcd34d;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #bbb;
+      font-size: 16px;
+      margin-bottom: 30px;
     }
 
     .plan {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      margin-bottom: 20px;
+      background: #1a1a1a;
+      padding: 24px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
     }
 
     .plan h2 {
       margin-top: 0;
+      color: #fff;
     }
 
-    .features {
-      margin: 16px 0;
+    .old-price {
+      text-decoration: line-through;
+      color: #888;
+      font-size: 16px;
+    }
+
+    .price {
+      font-size: 22px;
+      color: #facc15;
+      font-weight: bold;
+      margin-left: 8px;
+    }
+
+    ul {
       padding-left: 20px;
+      margin: 16px 0;
     }
 
-    .features li {
+    ul li {
       margin-bottom: 8px;
+      font-size: 14px;
+      color: #ccc;
     }
 
     .button {
       display: inline-block;
-      background: #000;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 8px;
+      background: linear-gradient(to right, #facc15, #f59e0b);
+      color: #000;
       font-weight: bold;
       text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background: linear-gradient(to right, #fde68a, #fcd34d);
     }
 
     .footer {
-      margin-top: 40px;
       text-align: center;
+      margin-top: 40px;
+      color: #666;
       font-size: 13px;
-      color: #777;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>👑 TrendSniper Pro</h1>
+    <p class="subtitle">Unlock the full power of AI-driven product research</p>
 
-  <h1>TrendSniper Pro</h1>
-  <p>Unlock all features. Boost your dropshipping game with AI.</p>
+    <div class="plan">
+      <h2>Monthly Plan</h2>
+      <p><span class="old-price">$15</span> <span class="price">$9.99/month</span></p>
+      <ul>
+        <li>Unlimited AI scans</li>
+        <li>Access Winning Products</li>
+        <li>Leaderboard & History</li>
+        <li>CSV Download</li>
+        <li>Category & Audience Insights</li>
+      </ul>
+      <a href="https://trendsniper.gumroad.com/l/rtzou" class="button">Subscribe Monthly</a>
+    </div>
 
-  <div class="plan">
-    <h2>$9.99/month</h2>
-    <ul class="features">
-      <li>Unlimited product scans</li>
-      <li>Winning Products tab</li>
-      <li>Leaderboard & History</li>
-      <li>CSV export</li>
-      <li>Priority scan engine</li>
-    </ul>
-    <a href="https://trendsniper.gumroad.com/l/rtzou" class="button">Subscribe Monthly</a>
+    <div class="plan">
+      <h2>Yearly Plan</h2>
+      <p><span class="old-price">$99.99</span> <span class="price">$79.30/year</span></p>
+      <ul>
+        <li>All Pro features included</li>
+        <li>One-time yearly payment</li>
+        <li>Save 20% instantly</li>
+      </ul>
+      <a href="https://trendsniper.gumroad.com/l/rtzou" class="button">Subscribe Yearly</a>
+    </div>
+
+    <div class="footer">Powered by Gumroad • Built for real product hunters</div>
   </div>
-
-  <div class="plan">
-    <h2>$79.99/year (Save 33%)</h2>
-    <ul class="features">
-      <li>12 months full access</li>
-      <li>All Pro features included</li>
-      <li>One-time payment</li>
-    </ul>
-    <a href="https://trendsniper.gumroad.com/l/rtzou" class="button">Subscribe Yearly</a>
-  </div>
-
-  <div class="footer">
-    Powered by Gumroad — Secure Checkout
-  </div>
-
 </body>
 </html>
